@@ -48,9 +48,9 @@ A systematic workflow was followed to ensure robust evaluation:
 
 | Model          | RMSE   | R²     | MAE   |
 |----------------|--------|--------|-------|
-| **Ridge**      | 0.0902 | 0.9134 | 0.0681 |
-| XGBoost        | 0.0987 | 0.8963 | 0.0716 |
-| Random Forest  | 0.1198 | 0.8474 | 0.0890 |
+| **Ridge**      | 0.1205 | 0.9154 | 0.0800 |
+| XGBoost        | 0.1285 | 0.9038 | 0.0834 |
+| Random Forest  | 0.1390 | 0.8873 | 0.0915 |
 
 ---
 
@@ -70,8 +70,10 @@ A systematic workflow was followed to ensure robust evaluation:
 ## Conclusion
 
 - **Model Performance:**  
-  Ridge Regression emerged as the top performer, achieving the **lowest RMSE (0.0902)** and the **highest R² (0.9134)** on the test set.  
+  Ridge Regression emerged as the top performer, achieving the **lowest RMSE (0.1205)** and the **highest R² (0.9154)** on the test set.  
   Its success is attributed to its ability to handle **multicollinearity and high dimensionality** through regularization, making it ideal for this dataset.  
 
 - **Potential Improvements:**  
   Future work could explore **stacking/ensemble methods** or **polynomial feature engineering** to further boost performance.  
+
+**Final Note:** Ridge Regression is the best-performing model on this dataset, with XGBoost close behind and Random Forest trailing.
