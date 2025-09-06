@@ -48,7 +48,7 @@ A systematic workflow was followed to ensure robust evaluation:
 
 | Model          | RMSE   | R²     | MAE   |
 |----------------|--------|--------|-------|
-| **Ridge**      | 0.1205 | 0.9154 | 0.0800 |
+| **Ridge**      | 0.1205 | 0.9154 | 0.0801 |
 | XGBoost        | 0.1285 | 0.9038 | 0.0834 |
 | Random Forest  | 0.1390 | 0.8873 | 0.0915 |
 
