@@ -1,11 +1,11 @@
-# 🏡 Ames Housing Price Prediction
+# Ames Housing Price Prediction
 
 This project demonstrates a comprehensive machine learning workflow to accurately predict house prices using the **Ames Housing dataset**.  
 The goal was to compare multiple regression models — from simple linear methods to advanced boosting techniques — and identify the best-performing model through a robust evaluation process.
 
 ---
 
-## 📊 Data Preprocessing
+## Data Preprocessing
 The preprocessing pipeline prepared the raw dataset for modeling. Key steps included:
 
 - **Handling Missing Values:**  
@@ -24,7 +24,7 @@ The preprocessing pipeline prepared the raw dataset for modeling. Key steps incl
 
 ---
 
-## 🤖 Modeling Approach
+## Modeling Approach
 A systematic workflow was followed to ensure robust evaluation:
 
 1. **Baseline Models:**  
@@ -42,7 +42,7 @@ A systematic workflow was followed to ensure robust evaluation:
 
 ---
 
-## 📈 Results (Quantitative)
+## Results (Quantitative)
 
 ### Final Test Set Performance
 
@@ -54,7 +54,7 @@ A systematic workflow was followed to ensure robust evaluation:
 
 ---
 
-## 🎨 Results (Qualitative / Visuals)
+## Results (Qualitative / Visuals)
 
 - **Residual Plots:**  
   Residuals for the Ridge model were randomly distributed around zero, showing that errors were not systematic.  
@@ -67,7 +67,7 @@ A systematic workflow was followed to ensure robust evaluation:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - **Model Performance:**  
   Ridge Regression emerged as the top performer, achieving the **lowest RMSE (0.0902)** and the **highest R² (0.9134)** on the test set.  
