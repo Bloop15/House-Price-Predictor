@@ -12,7 +12,17 @@ __pycache__/
 
 # Ignore large or unused data
 Data/test.csv
+Data/raw_train.csv
+Data/processed_train.csv
+Data/X_test.csv
+Data/y_test.csv
 
-# Virtual environment (if any)
+# Trained Models
+Models/
+
+# Results
+Results/
+
+# Virtual environments
 venv/
 .env/
