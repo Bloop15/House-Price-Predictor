@@ -30,7 +30,7 @@ Results/
 
 # Virtual environments
 venv/
-.env/
+.env
 
 # Deployment Artifcats
 Deployment_Artifacts/
