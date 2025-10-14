@@ -1,6 +1,10 @@
 # VSCode settings
 .vscode/
 
+# Streamlit settings
+.streamlit/
+
+
 # Python cache
 __pycache__/
 *.pyc
@@ -16,6 +20,7 @@ Data/raw_train.csv
 Data/processed_train.csv
 Data/X_test.csv
 Data/y_test.csv
+Data/sample_batch.csv
 
 # Trained Models
 Models/
@@ -26,3 +31,6 @@ Results/
 # Virtual environments
 venv/
 .env/
+
+# Deployment Artifcats
+Deployment_Artifacts/
