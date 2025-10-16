@@ -4,6 +4,7 @@ This project demonstrates a comprehensive machine learning workflow to accuratel
 The goal was to compare multiple regression models — from simple linear methods to advanced boosting techniques — and identify the best-performing model through a robust evaluation process.
 
 Additionally, this repository includes a **Streamlit app (`app.py`)** for interactive predictions, allowing users to input house features and obtain predicted prices in real-time.
+
 **Live App:** [https://house-price-predictor-sdia.onrender.com/](https://house-price-predictor-sdia.onrender.com)
 
 ---
