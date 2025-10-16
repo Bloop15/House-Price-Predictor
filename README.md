@@ -3,6 +3,8 @@
 This project demonstrates a comprehensive machine learning workflow to accurately predict house prices using the **Ames Housing dataset**.  
 The goal was to compare multiple regression models — from simple linear methods to advanced boosting techniques — and identify the best-performing model through a robust evaluation process.
 
+Additionally, this repository includes a **Streamlit app (`app.py`)** for interactive predictions, allowing users to input house features and obtain predicted prices in real-time.
+
 ---
 
 ## Data Preprocessing
@@ -77,3 +79,18 @@ A systematic workflow was followed to ensure robust evaluation:
   Future work could explore **stacking/ensemble methods** or **polynomial feature engineering** to further boost performance.  
 
 **Final Note:** Ridge Regression is the best-performing model on this dataset, with XGBoost close behind and Random Forest trailing.
+
+---
+
+## Streamlit App Overview
+
+The **`app.py`** file provides an interactive interface to explore the model:
+
+- Input key house features (e.g., **Overall Quality, Living Area, Garage Capacity**)  
+- Upload a CSV for **batch predictions**  
+- View entered feature values in a summary table  
+- Instantly get **predicted sale prices** using the pre-trained Ridge Regression model  
+
+> The app is lightweight, responsive, and can be run locally using Streamlit or deployed to the cloud.
+
+---
